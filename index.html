@@ -1,7 +1,717 @@
-<head>
-  <!-- <meta http-equiv="refresh" content="1; URL=https://gokulalla.notion.site/Gokul-Alla-e8f19195e57345208befeb96dee4615b" /> -->
-</head>
-<body>
-  <iframe src="https://gokulalla.notion.site/ebd//e8f19195e57345208befeb96dee4615b" width="100%" height="600" frameborder="0" allowfullscreen />
-  <!-- <p>If you are not redirected in five seconds, <a href="https://gokulalla.notion.site/Gokul-Alla-e8f19195e57345208befeb96dee4615b">click here</a>.</p> -->
-</body>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Gokul Alla</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="e8f19195-e573-4520-8bef-eb96dee4615b" class="page sans"><header><h1 class="page-title" dir="auto">Gokul Alla</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><p id="1826a913-1890-8017-8b4c-f3874bc8ee66" class=""><mark class="highlight-default">28gokul@gmail.com  |</mark><mark class="highlight-default"><strong> </strong></mark><mark class="highlight-default"> </mark><mark class="highlight-default"><a href="http://linkedin.com/in/gokulalla">linkedin.com/in/gokulalla</a></mark><mark class="highlight-default">   |   </mark><mark class="highlight-default"><a href="https://github.com/gokulalla/">github.com/gokulalla</a></mark><mark class="highlight-default">  |  SF Bay Area, CA   </mark></p></div><div style="display:contents" dir="auto"><hr id="1826a913-1890-808f-99b4-d1b3bd68bf9c"/></div><div style="display:contents" dir="auto"><p id="1826a913-1890-806d-b18f-dcff094eb436" class="">Senior Software Engineer with experience working on large-scale applications.<strong> </strong>Programming language agnostic and a fast learner. Enjoy working on challenging tasks and exploring new technologies.</p></div><div style="display:contents" dir="auto"><hr id="1826a913-1890-804c-9b0b-f2589916b9cf"/></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8097-ba75-ebefdaf630c4" class=""><mark class="highlight-gray"><strong>Skills:</strong></mark></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8025-bf78-efed9be4b17f" class=""><strong>Ruby, JavaScript/Typescript, Python, Nodejs, Ruby on Rails, ReactJS, MySQL, Postgres, AWS Cloud, Lambda, DynamoDB, Redshift</strong></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-80b9-95d7-c21173a58760" class="">CI/CD, Unit test, Agile methodology, Git, Jira, Docker, Jenkins, Active record(ORM), Kibana, Rollbar, RabbitMQ</p></div><div style="display:contents" dir="auto"><hr id="1826a913-1890-800a-bf41-c4de526a919d"/></div><div style="display:contents" dir="auto"><p id="1826a913-1890-80d3-b5a8-ec25b823e6d3" class=""><mark class="highlight-gray"><strong>Experience:</strong></mark></p></div><div style="display:contents" dir="auto"><p id="2236a913-1890-80fb-aa14-de44a9a1c9ec" class=""><strong><span style="border-bottom:0.05em solid">Sr. Software Engineer - Full Stack | PayPal - Remote CA  |  Feb 26 2025 - Present</span></strong></p></div><div style="display:contents" dir="auto"><p id="2236a913-1890-80ac-9bcf-fa441737df3b" class=""><em><mark class="highlight-gray">Fintech - Braintree - enterprise payment gateway</mark></em></p></div><div style="display:contents" dir="auto"><ul id="2236a913-1890-80b3-b49a-d5dba9dfbcf4" class="bulleted-list"><li style="list-style-type:disc">Senior IC working on developing a full-stack feature for the automation of merchant data. </li></ul></div><div style="display:contents" dir="auto"><ul id="2236a913-1890-80c8-952f-fd237e570539" class="bulleted-list"><li style="list-style-type:disc">Working on multi-monolith platforms. Modularize Rails.</li></ul></div><div style="display:contents" dir="auto"><ul id="2236a913-1890-80b8-9ff6-c19121676699" class="bulleted-list"><li style="list-style-type:disc">Working on GraphQL, REST API for external and internal clients</li></ul></div><div style="display:contents" dir="auto"><ul id="2236a913-1890-80c3-bcc7-cc029a5ca9d7" class="bulleted-list"><li style="list-style-type:disc">Developed service layer architecture, single response objects, serializer objects, design for conventions, and scalability.</li></ul></div><div style="display:contents" dir="auto"><ul id="2236a913-1890-809c-9eab-d7143640fb5b" class="bulleted-list"><li style="list-style-type:disc">Code base optimization to follow SOLID principles. Improved code maintainability, stability, and readability. </li></ul></div><div style="display:contents" dir="auto"><ul id="2236a913-1890-80b4-8421-d978d0d638a1" class="bulleted-list"><li style="list-style-type:disc">Worked on AI integration and discovery, MCP servers, and Agents to improve productivity </li></ul></div><div style="display:contents" dir="auto"><ul id="2236a913-1890-802a-961d-fc3b03f9107b" class="bulleted-list"><li style="list-style-type:disc">Worked on documentation like HLD, E2E, and flow diagrams. Sprint planning, code reviews, and retrospectives</li></ul></div><div style="display:contents" dir="auto"><ul id="2236a913-1890-8063-9273-e7b6562313cb" class="bulleted-list"><li style="list-style-type:disc">Using AI agentic tools like Claude Code and Cursor. Improving repo agent instructions.</li></ul></div><div style="display:contents" dir="auto"><p id="2236a913-1890-801c-aee5-d90e7a776dea" class=""><mark class="highlight-default">Stack: Ruby on rails, Ruby, RSpec, Javascript, Postgres, AWS, Docker, Kubernetes, Datadog, Sentry</mark></p></div><div style="display:contents" dir="auto"><p id="2236a913-1890-80aa-992f-c2adcf31345e" class="">
+</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8040-890b-d247be5abdeb" class=""><mark class="highlight-default"><strong><span style="border-bottom:0.05em solid">Sr. Software Engineer - Back End  |  </span></strong></mark><mark class="highlight-default"><strong><a href="https://www.stayntouch.com/"><span style="border-bottom:0.05em solid">Stayntouch </span></a></strong></mark><mark class="highlight-default"><strong><span style="border-bottom:0.05em solid">- Remote  |   Mar 2020 - Sep 2024</span></strong></mark></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8085-90dd-fe2fb275acc2" class=""><em><mark class="highlight-gray">Hotel/Property management system - reservations, integrations, payments, reporting…</mark></em></p></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-803b-b06c-f7623fdfb8be" class="bulleted-list"><li style="list-style-type:disc">Worked as a core team individual contributor developing reservations, rates, and multi-property systems. Writing clean, scalable &amp; testable code contribution.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-807a-83e8-fec9566bbde1" class="bulleted-list"><li style="list-style-type:disc">Application backend development, architecture contribution, performance improvements,  API &amp; query optimizations, DevOps docker contribution.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-808d-a993-fd4577f32ef3" class="bulleted-list"><li style="list-style-type:disc">Optimizing distributed applications&#x27; bottlenecks and implementing Async I/O, Concurrent processes, and thread safety to improve application performance.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-8089-a510-dafe99063fd2" class="bulleted-list"><li style="list-style-type:disc">Improved internal task process running on Jenkins using memory-based processes, cutting 25 minutes of task run time.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-803f-b119-d4f59b8c5869" class="bulleted-list"><li style="list-style-type:disc">Designed serverless functions on application servers for the quick implementation of one-time tasks and to distribute the load.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-802f-9b86-d04b87466475" class="bulleted-list"><li style="list-style-type:disc">Worked on internal tool and agent gem from the ground up to manage distributed servers, and run tasks, reports, metrics, APM, health, and data checks.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-80ff-96ef-c3640c3e1dce" class="bulleted-list"><li style="list-style-type:disc">Worked on metrics and logging using telemetry, tagging to improve log search and visibility.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-80dc-94be-eee568241948" class="bulleted-list"><li style="list-style-type:disc">Worked on application improvements on DevOps, reduced overall AWS cost by 6%</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-8059-8fb2-f3e03f208e42" class="bulleted-list"><li style="list-style-type:disc">Implemented data streaming and replication to handle database load. Used bin-logs and Kafka streams on AWS.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-801a-ba0a-d925a11d22cc" class="bulleted-list"><li style="list-style-type:disc">Improved code maintainability, stability, and readability using SOLID architecture.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-8007-b86a-f03aa474a5b9" class="bulleted-list"><li style="list-style-type:disc">Modular monolith application, engines, and gems libraries.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-808f-b297-e66e4767def0" class="bulleted-list"><li style="list-style-type:disc">Utilized various monitoring tools to diagnose and resolve production issues</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-80ba-aa4d-d550eab1f2b6" class="bulleted-list"><li style="list-style-type:disc">Responsibilities include code reviews, adhering to scrum methodology, grooming, and feature demos</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-800f-b86c-f609018604f8" class="bulleted-list"><li style="list-style-type:disc">Collaborated &amp; developing front-end  to optimize REST API usage, reducing backend load.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-80dd-b875-e5ec94f35d45" class="bulleted-list"><li style="list-style-type:disc">Worked with DevOps teams to migrate application infrastructure to Kubernetes &amp; Terraform</li></ul></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8071-a964-f676de4b57f2" class=""><mark class="highlight-default">Stack: Python, Ruby, JavaScript, MySQL, GitHub, AWS, RabbitMQ, Kafka streams, Docker, Jira, Kibana, Rollbar</mark></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8076-ac47-d59930b0bef3" class="">
+</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-804a-956c-dfc7036a6cc0" class=""><mark class="highlight-default"><strong><span style="border-bottom:0.05em solid">Sr. Software Developer - Full Stack  |  </span></strong></mark><mark class="highlight-default"><strong><a href="https://www.asee.org/"><span style="border-bottom:0.05em solid">ASEE</span></a></strong></mark><mark class="highlight-default"><strong><span style="border-bottom:0.05em solid"> - Washington, DC  |   Mar 2017 – Mar 2020</span></strong></mark></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-80b4-a7be-d6487ae6dec9" class=""><em><mark class="highlight-gray">Edtech, Conferences, Grants &amp; Fellowships</mark></em></p></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-8079-b95c-c2a9501d9a45" class="bulleted-list"><li style="list-style-type:disc">Full-stack application development, monolith application, API, SaaS, CI/CD, DevOps, ML algorithms.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-80a4-a1c1-d6dedba8055d" class="bulleted-list"><li style="list-style-type:disc">Design server-side rendered (SSO) dynamic forms using templates </li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-8074-8603-fea1869f88b9" class="bulleted-list"><li style="list-style-type:disc">Rewrite the awards/grants selection algorithm. Reduced runtime by 60%</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-80dc-9e3e-f231ef252f25" class="bulleted-list"><li style="list-style-type:disc">Built scripts for various backend async and data cleaning jobs.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-80a8-981c-e0a417e4de74" class="bulleted-list"><li style="list-style-type:disc">Implement random forest, regression algorithms for award selection algorithms.</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-806f-b4c2-d4815dcb352c" class="bulleted-list"><li style="list-style-type:disc">Rebuilt legacy application. Reduced server costs and improved application maintainability and stability</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-8038-a135-fc4d83f5e559" class="bulleted-list"><li style="list-style-type:disc">Implemented CI/CD workflow. Improved deployment time. Reduced test suite run time</li></ul></div><div style="display:contents" dir="auto"><ul id="1826a913-1890-80d7-852a-c31d1a7f40e4" class="bulleted-list"><li style="list-style-type:disc">Responsibilities include Code reviews, adhering to Scrum methodology, grooming, and feature demos</li></ul></div><div style="display:contents" dir="auto"><p id="1826a913-1890-80cd-8776-fe3d9f8bb22e" class="">Stack:<em> </em>Python<em>, </em>Java<em>, </em>Spring Boot<em>, </em>Ruby on Rails, TypeScript, ReactJS, Restful API, MySQL, GitLab, Docker, New Relic.</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-801f-b915-cd2cb7f81ca3" class="">
+</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8081-b58a-d6fa1fc159aa" class=""><mark class="highlight-default"><strong><span style="border-bottom:0.05em solid">Full-stack developer  |  </span></strong></mark><mark class="highlight-default"><strong><a href="https://www.datamorphix.ai/"><span style="border-bottom:0.05em solid">Datamorphix</span></a></strong></mark><mark class="highlight-default"><strong><span style="border-bottom:0.05em solid"> -  Irving, TX   |   Jun 2016 – Mar 2017</span></strong></mark></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-800f-8e84-efa6f982a17b" class=""><em><mark class="highlight-gray">Big data &amp; IOT platform</mark></em></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-806e-8774-d476afc18492" class="">Web application development, Cloud applications, SDLC, Third-party integration, IOT app, Worked on web clients for Hadoop and IOT devices</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-809d-8cf2-cab7f60e931e" class=""><strong>Stack: </strong>Ruby on Rails, Ruby, JavaScript, Bootstrap, MySQL, MongoDB, Hadoop, Git.</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-80ae-a256-ca70beafcf44" class="">
+</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-80de-a79e-c7e76528b9fd" class=""><mark class="highlight-default"><strong><span style="border-bottom:0.05em solid">Software Developer  |  GBST - India  |  May 2013 – May 2015</span></strong></mark></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8039-a07b-fb92682bcdee" class=""><em><mark class="highlight-gray">ERP applications, web/desktop</mark></em></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-806c-837a-ca400bc912e5" class="">Application development, medium-scale ERP applications, web/desktop applications, front-end development, UI/UX design, on-premise deployments</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-806f-9d26-f18f62a81f69" class="">Stack: Ruby on Rails, Java, JavaScript, HTML5, CSS, jQuery, Bootstrap, GIT, MySQL, PostgreSQL, Linux.</p></div><div style="display:contents" dir="auto"><hr id="1826a913-1890-80a5-858a-f3cc6ec48764"/></div><div style="display:contents" dir="auto"><p id="1826a913-1890-806d-81e2-fc370ed09798" class=""><mark class="highlight-gray"><strong>Education:</strong></mark></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8090-a6d0-e9ec9de6c37b" class=""><strong>Master of Science in Analytics  |  Texas A&amp;M University-Commerce, TX</strong></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8027-bc30-c1de80f35680" class="">Advanced Database Management, Data Warehousing, Advance Analytics, Research Methods, Statistical Methods, Marketing Research, Applied Decision Modeling, Project Management.</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8026-947d-c4db28611e57" class="">
+</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8008-b9d1-f256ba137ef7" class=""><strong>Bachelor of Tech. in Electronics and Computer Engineering</strong> <strong> |  K.L. University, India.</strong></p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8042-a8a6-f9089eda7588" class="">OOP Concepts, Data structures, Database Management systems, Algorithms, Computer Networks &amp; Security, Micro-controllers, Embedded systems, Robotics, Distributed Systems, Web Technologies</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-80c7-b6d5-de9c1d8ecb76" class="">
+</p></div><div style="display:contents" dir="auto"><p id="1826a913-1890-8025-999c-f8d167f363dd" class="">
+</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
